@@ -10,13 +10,12 @@ define([
     "jquery/ui"
 ], function($, alert) {
     return function(config, element) {
-        console.log(config, element);
         // on click event
         $(element).click(function() {
             console.log("test");
             $.widget("mage.alertMessage", {
                 options: {
-                    confirmMsg: "This is a test message.",
+                    confirmMsg: "This is a test message. ＼(^_^)／",
                 },
                 _create: function () {
                     var self = this;

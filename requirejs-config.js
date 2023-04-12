@@ -12,7 +12,8 @@ var config = {
             "myCustomWidget": "Tigren_CustomerGroupCatalog/js/my-custom-widget",
             "modalExample": "Tigren_CustomerGroupCatalog/js/modal-example",
             "catalog-add-to-cart-mixin": "Tigren_CustomerGroupCatalog/js/catalog-add-to-cart-mixin",
-            "test_Js": "Tigren_CustomerGroupCatalog/js/alertMessage"
+            "test_Js": "Tigren_CustomerGroupCatalog/js/alertMessage",
+            'example-modal': 'Tigren_CustomerGroupCatalog/js/example-modal'
         }
     },
     config: {

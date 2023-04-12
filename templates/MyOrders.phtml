@@ -32,10 +32,14 @@
 <div >
     <button data-mage-init='{"test_Js":{"someKey": "value"}}'>Test Js</button>
 </div>
-<div id="popup-modal" style="display:none;">
-    <h1> This is test  </h1>
-</div>
 <div>
+    <div id="modal-content" style="display: none">
+        <h1>Modal Content</h1>
+        <p>Some content</p>
+    </div>
+    <button id="example-modal-button" data-mage-init='{"example-modal": {"target": "#modal-content"}}'>
+        Open Modal
+    </button>
 <!--    <script type="text/x-magento-init">-->
 <!--    {-->
 <!--        ".maindiv": {-->
